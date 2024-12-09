@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79FF71542D07965200E3A089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF71532D07965200E3A089 /* AppDelegate.swift */; };
+		79FF71562D07965200E3A089 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF71552D07965200E3A089 /* SceneDelegate.swift */; };
+		79FF71582D07965200E3A089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF71572D07965200E3A089 /* ViewController.swift */; };
+		79FF715B2D07965200E3A089 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 79FF715A2D07965200E3A089 /* Base */; };
+		79FF715D2D07965300E3A089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79FF715C2D07965300E3A089 /* Assets.xcassets */; };
+		79FF71602D07965300E3A089 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 79FF715F2D07965300E3A089 /* Base */; };
+		79FF716B2D07965300E3A089 /* nlw_pocket_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF716A2D07965300E3A089 /* nlw_pocket_mobileTests.swift */; };
+		79FF71752D07965300E3A089 /* nlw_pocket_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF71742D07965300E3A089 /* nlw_pocket_mobileUITests.swift */; };
+		79FF71772D07965300E3A089 /* nlw_pocket_mobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF71762D07965300E3A089 /* nlw_pocket_mobileUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79FF71672D07965300E3A089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79FF71482D07965100E3A089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79FF714F2D07965200E3A089;
+			remoteInfo = "nlw-pocket-mobile";
+		};
+		79FF71712D07965300E3A089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79FF71482D07965100E3A089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79FF714F2D07965200E3A089;
+			remoteInfo = "nlw-pocket-mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79FF71502D07965200E3A089 /* nlw-pocket-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nlw-pocket-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FF71532D07965200E3A089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79FF71552D07965200E3A089 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		79FF71572D07965200E3A089 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79FF715A2D07965200E3A089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79FF715C2D07965300E3A089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79FF715F2D07965300E3A089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79FF71612D07965300E3A089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79FF71662D07965300E3A089 /* nlw-pocket-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nlw-pocket-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FF716A2D07965300E3A089 /* nlw_pocket_mobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nlw_pocket_mobileTests.swift; sourceTree = "<group>"; };
+		79FF71702D07965300E3A089 /* nlw-pocket-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nlw-pocket-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79FF71742D07965300E3A089 /* nlw_pocket_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nlw_pocket_mobileUITests.swift; sourceTree = "<group>"; };
+		79FF71762D07965300E3A089 /* nlw_pocket_mobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nlw_pocket_mobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79FF714D2D07965200E3A089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FF71632D07965300E3A089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FF716D2D07965300E3A089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79FF71472D07965100E3A089 = {
+			isa = PBXGroup;
+			children = (
+				79FF71522D07965200E3A089 /* nlw-pocket-mobile */,
+				79FF71692D07965300E3A089 /* nlw-pocket-mobileTests */,
+				79FF71732D07965300E3A089 /* nlw-pocket-mobileUITests */,
+				79FF71512D07965200E3A089 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79FF71512D07965200E3A089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79FF71502D07965200E3A089 /* nlw-pocket-mobile.app */,
+				79FF71662D07965300E3A089 /* nlw-pocket-mobileTests.xctest */,
+				79FF71702D07965300E3A089 /* nlw-pocket-mobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79FF71522D07965200E3A089 /* nlw-pocket-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				79FF71532D07965200E3A089 /* AppDelegate.swift */,
+				79FF71552D07965200E3A089 /* SceneDelegate.swift */,
+				79FF71572D07965200E3A089 /* ViewController.swift */,
+				79FF71592D07965200E3A089 /* Main.storyboard */,
+				79FF715C2D07965300E3A089 /* Assets.xcassets */,
+				79FF715E2D07965300E3A089 /* LaunchScreen.storyboard */,
+				79FF71612D07965300E3A089 /* Info.plist */,
+			);
+			path = "nlw-pocket-mobile";
+			sourceTree = "<group>";
+		};
+		79FF71692D07965300E3A089 /* nlw-pocket-mobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				79FF716A2D07965300E3A089 /* nlw_pocket_mobileTests.swift */,
+			);
+			path = "nlw-pocket-mobileTests";
+			sourceTree = "<group>";
+		};
+		79FF71732D07965300E3A089 /* nlw-pocket-mobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79FF71742D07965300E3A089 /* nlw_pocket_mobileUITests.swift */,
+				79FF71762D07965300E3A089 /* nlw_pocket_mobileUITestsLaunchTests.swift */,
+			);
+			path = "nlw-pocket-mobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79FF714F2D07965200E3A089 /* nlw-pocket-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FF717A2D07965300E3A089 /* Build configuration list for PBXNativeTarget "nlw-pocket-mobile" */;
+			buildPhases = (
+				79FF714C2D07965200E3A089 /* Sources */,
+				79FF714D2D07965200E3A089 /* Frameworks */,
+				79FF714E2D07965200E3A089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nlw-pocket-mobile";
+			productName = "nlw-pocket-mobile";
+			productReference = 79FF71502D07965200E3A089 /* nlw-pocket-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79FF71652D07965300E3A089 /* nlw-pocket-mobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FF717D2D07965300E3A089 /* Build configuration list for PBXNativeTarget "nlw-pocket-mobileTests" */;
+			buildPhases = (
+				79FF71622D07965300E3A089 /* Sources */,
+				79FF71632D07965300E3A089 /* Frameworks */,
+				79FF71642D07965300E3A089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79FF71682D07965300E3A089 /* PBXTargetDependency */,
+			);
+			name = "nlw-pocket-mobileTests";
+			productName = "nlw-pocket-mobileTests";
+			productReference = 79FF71662D07965300E3A089 /* nlw-pocket-mobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79FF716F2D07965300E3A089 /* nlw-pocket-mobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79FF71802D07965300E3A089 /* Build configuration list for PBXNativeTarget "nlw-pocket-mobileUITests" */;
+			buildPhases = (
+				79FF716C2D07965300E3A089 /* Sources */,
+				79FF716D2D07965300E3A089 /* Frameworks */,
+				79FF716E2D07965300E3A089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79FF71722D07965300E3A089 /* PBXTargetDependency */,
+			);
+			name = "nlw-pocket-mobileUITests";
+			productName = "nlw-pocket-mobileUITests";
+			productReference = 79FF71702D07965300E3A089 /* nlw-pocket-mobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79FF71482D07965100E3A089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					79FF714F2D07965200E3A089 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					79FF71652D07965300E3A089 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 79FF714F2D07965200E3A089;
+					};
+					79FF716F2D07965300E3A089 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 79FF714F2D07965200E3A089;
+					};
+				};
+			};
+			buildConfigurationList = 79FF714B2D07965100E3A089 /* Build configuration list for PBXProject "nlw-pocket-mobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79FF71472D07965100E3A089;
+			productRefGroup = 79FF71512D07965200E3A089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79FF714F2D07965200E3A089 /* nlw-pocket-mobile */,
+				79FF71652D07965300E3A089 /* nlw-pocket-mobileTests */,
+				79FF716F2D07965300E3A089 /* nlw-pocket-mobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79FF714E2D07965200E3A089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FF715D2D07965300E3A089 /* Assets.xcassets in Resources */,
+				79FF71602D07965300E3A089 /* Base in Resources */,
+				79FF715B2D07965200E3A089 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FF71642D07965300E3A089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FF716E2D07965300E3A089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79FF714C2D07965200E3A089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FF71582D07965200E3A089 /* ViewController.swift in Sources */,
+				79FF71542D07965200E3A089 /* AppDelegate.swift in Sources */,
+				79FF71562D07965200E3A089 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FF71622D07965300E3A089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FF716B2D07965300E3A089 /* nlw_pocket_mobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FF716C2D07965300E3A089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79FF71772D07965300E3A089 /* nlw_pocket_mobileUITestsLaunchTests.swift in Sources */,
+				79FF71752D07965300E3A089 /* nlw_pocket_mobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79FF71682D07965300E3A089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79FF714F2D07965200E3A089 /* nlw-pocket-mobile */;
+			targetProxy = 79FF71672D07965300E3A089 /* PBXContainerItemProxy */;
+		};
+		79FF71722D07965300E3A089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79FF714F2D07965200E3A089 /* nlw-pocket-mobile */;
+			targetProxy = 79FF71712D07965300E3A089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79FF71592D07965200E3A089 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79FF715A2D07965200E3A089 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79FF715E2D07965300E3A089 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79FF715F2D07965300E3A089 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79FF71782D07965300E3A089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79FF71792D07965300E3A089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79FF717B2D07965300E3A089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N64DU8JY7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nlw-pocket-mobile/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.nlw-pocket-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79FF717C2D07965300E3A089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N64DU8JY7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nlw-pocket-mobile/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.nlw-pocket-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79FF717E2D07965300E3A089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N64DU8JY7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.nlw-pocket-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nlw-pocket-mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nlw-pocket-mobile";
+			};
+			name = Debug;
+		};
+		79FF717F2D07965300E3A089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N64DU8JY7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.nlw-pocket-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nlw-pocket-mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nlw-pocket-mobile";
+			};
+			name = Release;
+		};
+		79FF71812D07965300E3A089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N64DU8JY7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.nlw-pocket-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nlw-pocket-mobile";
+			};
+			name = Debug;
+		};
+		79FF71822D07965300E3A089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N64DU8JY7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.nlw-pocket-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nlw-pocket-mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79FF714B2D07965100E3A089 /* Build configuration list for PBXProject "nlw-pocket-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FF71782D07965300E3A089 /* Debug */,
+				79FF71792D07965300E3A089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FF717A2D07965300E3A089 /* Build configuration list for PBXNativeTarget "nlw-pocket-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FF717B2D07965300E3A089 /* Debug */,
+				79FF717C2D07965300E3A089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FF717D2D07965300E3A089 /* Build configuration list for PBXNativeTarget "nlw-pocket-mobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FF717E2D07965300E3A089 /* Debug */,
+				79FF717F2D07965300E3A089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79FF71802D07965300E3A089 /* Build configuration list for PBXNativeTarget "nlw-pocket-mobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79FF71812D07965300E3A089 /* Debug */,
+				79FF71822D07965300E3A089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79FF71482D07965100E3A089 /* Project object */;
+}

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		792CF7112D0910080026C96C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792CF7102D0910080026C96C /* Colors.swift */; };
+		792CF7152D09108B0026C96C /* NearbyFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792CF7142D09108B0026C96C /* NearbyFlowController.swift */; };
+		792CF7192D0911C70026C96C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792CF7182D0911C70026C96C /* SplashViewController.swift */; };
+		792CF71B2D0912030026C96C /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792CF71A2D0912030026C96C /* SplashView.swift */; };
 		79FF71542D07965200E3A089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF71532D07965200E3A089 /* AppDelegate.swift */; };
 		79FF71562D07965200E3A089 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF71552D07965200E3A089 /* SceneDelegate.swift */; };
 		79FF71582D07965200E3A089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF71572D07965200E3A089 /* ViewController.swift */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		792CF7102D0910080026C96C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		792CF7142D09108B0026C96C /* NearbyFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyFlowController.swift; sourceTree = "<group>"; };
+		792CF7182D0911C70026C96C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		792CF71A2D0912030026C96C /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		79FF71502D07965200E3A089 /* nlw-pocket-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nlw-pocket-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FF71532D07965200E3A089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79FF71552D07965200E3A089 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +82,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		792CF70F2D090FF90026C96C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				792CF7102D0910080026C96C /* Colors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		792CF7122D09105E0026C96C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				792CF7162D0911A40026C96C /* Scenes */,
+				792CF7132D0910680026C96C /* Coordinator */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		792CF7132D0910680026C96C /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				792CF7142D09108B0026C96C /* NearbyFlowController.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		792CF7162D0911A40026C96C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				792CF7172D0911B50026C96C /* Splash */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		792CF7172D0911B50026C96C /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				792CF7182D0911C70026C96C /* SplashViewController.swift */,
+				792CF71A2D0912030026C96C /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		792CF71C2D0915D10026C96C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79FF715C2D07965300E3A089 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		79FF71472D07965100E3A089 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +155,11 @@
 		79FF71522D07965200E3A089 /* nlw-pocket-mobile */ = {
 			isa = PBXGroup;
 			children = (
+				792CF71C2D0915D10026C96C /* Resources */,
 				79FF71832D07975600E3A089 /* Sources */,
 				79FF71532D07965200E3A089 /* AppDelegate.swift */,
 				79FF71552D07965200E3A089 /* SceneDelegate.swift */,
 				79FF71572D07965200E3A089 /* ViewController.swift */,
-				79FF715C2D07965300E3A089 /* Assets.xcassets */,
 				79FF71612D07965300E3A089 /* Info.plist */,
 			);
 			path = "nlw-pocket-mobile";
@@ -127,6 +185,8 @@
 		79FF71832D07975600E3A089 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				792CF7122D09105E0026C96C /* Features */,
+				792CF70F2D090FF90026C96C /* Constants */,
 				79FF71842D07977200E3A089 /* FlowCoordinator.swift */,
 			);
 			path = Sources;
@@ -262,8 +322,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				79FF71852D07977200E3A089 /* FlowCoordinator.swift in Sources */,
+				792CF71B2D0912030026C96C /* SplashView.swift in Sources */,
+				792CF7112D0910080026C96C /* Colors.swift in Sources */,
+				792CF7152D09108B0026C96C /* NearbyFlowController.swift in Sources */,
 				79FF71582D07965200E3A089 /* ViewController.swift in Sources */,
 				79FF71542D07965200E3A089 /* AppDelegate.swift in Sources */,
+				792CF7192D0911C70026C96C /* SplashViewController.swift in Sources */,
 				79FF71562D07965200E3A089 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

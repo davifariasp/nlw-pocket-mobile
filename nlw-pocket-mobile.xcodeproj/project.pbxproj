@@ -11,6 +11,16 @@
 		792CF7152D09108B0026C96C /* NearbyFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792CF7142D09108B0026C96C /* NearbyFlowController.swift */; };
 		792CF7192D0911C70026C96C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792CF7182D0911C70026C96C /* SplashViewController.swift */; };
 		792CF71B2D0912030026C96C /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792CF71A2D0912030026C96C /* SplashView.swift */; };
+		79F7BAA72D09B63B00B8F636 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7BAA62D09B63B00B8F636 /* TipsView.swift */; };
+		79F7BAAA2D09BAC900B8F636 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7BAA92D09BAC900B8F636 /* WelcomeView.swift */; };
+		79F7BAAC2D09BF5400B8F636 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7BAAB2D09BF5400B8F636 /* WelcomeViewController.swift */; };
+		79F7BAAE2D09C24B00B8F636 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7BAAD2D09C24B00B8F636 /* Typography.swift */; };
+		79F7BAB12D09C93500B8F636 /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7BAB02D09C93500B8F636 /* UIViewController+ext.swift */; };
+		79F7BAB32D09CA2200B8F636 /* SplashFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7BAB22D09CA2200B8F636 /* SplashFlowDelegate.swift */; };
+		79F7BAB62D09D72C00B8F636 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7BAB52D09D72C00B8F636 /* HomeView.swift */; };
+		79F7BAB82D09D73400B8F636 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7BAB72D09D73400B8F636 /* HomeViewController.swift */; };
+		79F7BABB2D09D79000B8F636 /* PlaceTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7BABA2D09D79000B8F636 /* PlaceTableView.swift */; };
+		79F7BABF2D09D86B00B8F636 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F7BABE2D09D86B00B8F636 /* PlaceModel.swift */; };
 		79FF71542D07965200E3A089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF71532D07965200E3A089 /* AppDelegate.swift */; };
 		79FF71562D07965200E3A089 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF71552D07965200E3A089 /* SceneDelegate.swift */; };
 		79FF71582D07965200E3A089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FF71572D07965200E3A089 /* ViewController.swift */; };
@@ -43,6 +53,16 @@
 		792CF7142D09108B0026C96C /* NearbyFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyFlowController.swift; sourceTree = "<group>"; };
 		792CF7182D0911C70026C96C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		792CF71A2D0912030026C96C /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		79F7BAA62D09B63B00B8F636 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		79F7BAA92D09BAC900B8F636 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		79F7BAAB2D09BF5400B8F636 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		79F7BAAD2D09C24B00B8F636 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		79F7BAB02D09C93500B8F636 /* UIViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
+		79F7BAB22D09CA2200B8F636 /* SplashFlowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashFlowDelegate.swift; sourceTree = "<group>"; };
+		79F7BAB52D09D72C00B8F636 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		79F7BAB72D09D73400B8F636 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		79F7BABA2D09D79000B8F636 /* PlaceTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableView.swift; sourceTree = "<group>"; };
+		79F7BABE2D09D86B00B8F636 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		79FF71502D07965200E3A089 /* nlw-pocket-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nlw-pocket-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79FF71532D07965200E3A089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79FF71552D07965200E3A089 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				792CF7102D0910080026C96C /* Colors.swift */,
+				79F7BAAD2D09C24B00B8F636 /* Typography.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -93,6 +114,8 @@
 		792CF7122D09105E0026C96C /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				79F7BAAF2D09C91600B8F636 /* Extensions */,
+				79F7BAA52D09B61F00B8F636 /* Components */,
 				792CF7162D0911A40026C96C /* Scenes */,
 				792CF7132D0910680026C96C /* Coordinator */,
 			);
@@ -110,6 +133,8 @@
 		792CF7162D0911A40026C96C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				79F7BAB42D09D72000B8F636 /* Home */,
+				79F7BAA82D09BAB600B8F636 /* Welcome */,
 				792CF7172D0911B50026C96C /* Splash */,
 			);
 			path = Scenes;
@@ -120,6 +145,7 @@
 			children = (
 				792CF7182D0911C70026C96C /* SplashViewController.swift */,
 				792CF71A2D0912030026C96C /* SplashView.swift */,
+				79F7BAB22D09CA2200B8F636 /* SplashFlowDelegate.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -130,6 +156,57 @@
 				79FF715C2D07965300E3A089 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		79F7BAA52D09B61F00B8F636 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				79F7BAA62D09B63B00B8F636 /* TipsView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		79F7BAA82D09BAB600B8F636 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				79F7BAA92D09BAC900B8F636 /* WelcomeView.swift */,
+				79F7BAAB2D09BF5400B8F636 /* WelcomeViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		79F7BAAF2D09C91600B8F636 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				79F7BAB02D09C93500B8F636 /* UIViewController+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		79F7BAB42D09D72000B8F636 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				79F7BAB92D09D77900B8F636 /* TableViewCell */,
+				79F7BAB52D09D72C00B8F636 /* HomeView.swift */,
+				79F7BAB72D09D73400B8F636 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		79F7BAB92D09D77900B8F636 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				79F7BABA2D09D79000B8F636 /* PlaceTableView.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		79F7BABD2D09D85D00B8F636 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				79F7BABE2D09D86B00B8F636 /* PlaceModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		79FF71472D07965100E3A089 = {
@@ -185,6 +262,7 @@
 		79FF71832D07975600E3A089 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				79F7BABD2D09D85D00B8F636 /* Models */,
 				792CF7122D09105E0026C96C /* Features */,
 				792CF70F2D090FF90026C96C /* Constants */,
 				79FF71842D07977200E3A089 /* FlowCoordinator.swift */,
@@ -323,12 +401,22 @@
 			files = (
 				79FF71852D07977200E3A089 /* FlowCoordinator.swift in Sources */,
 				792CF71B2D0912030026C96C /* SplashView.swift in Sources */,
+				79F7BAAC2D09BF5400B8F636 /* WelcomeViewController.swift in Sources */,
+				79F7BAB62D09D72C00B8F636 /* HomeView.swift in Sources */,
 				792CF7112D0910080026C96C /* Colors.swift in Sources */,
 				792CF7152D09108B0026C96C /* NearbyFlowController.swift in Sources */,
+				79F7BAB12D09C93500B8F636 /* UIViewController+ext.swift in Sources */,
+				79F7BABF2D09D86B00B8F636 /* PlaceModel.swift in Sources */,
 				79FF71582D07965200E3A089 /* ViewController.swift in Sources */,
+				79F7BAAA2D09BAC900B8F636 /* WelcomeView.swift in Sources */,
 				79FF71542D07965200E3A089 /* AppDelegate.swift in Sources */,
+				79F7BAA72D09B63B00B8F636 /* TipsView.swift in Sources */,
+				79F7BAB82D09D73400B8F636 /* HomeViewController.swift in Sources */,
 				792CF7192D0911C70026C96C /* SplashViewController.swift in Sources */,
+				79F7BABB2D09D79000B8F636 /* PlaceTableView.swift in Sources */,
+				79F7BAAE2D09C24B00B8F636 /* Typography.swift in Sources */,
 				79FF71562D07965200E3A089 /* SceneDelegate.swift in Sources */,
+				79F7BAB32D09CA2200B8F636 /* SplashFlowDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
